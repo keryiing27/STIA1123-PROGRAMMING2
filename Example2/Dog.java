@@ -2,17 +2,15 @@ package Example2;
 
 public class Dog {
 	
-	String dogName = "Mimi", eyeColor = "brown", breed = "poodle";
+	String dogName, eyeColor, breed;
 	int dogAge;
-	String bark = "It will bark at strangers";
-	String eat = "It likes to eat meat";
+	String bark;
+	String eat;
 	void changeName() {
-		dogName = new String("puppy") ;
-		System.out.println(dogName);
+		System.out.println("Another doggy name: " + dogName);
 	}
 	
 	void printDogAge() {
-		dogAge = 2;
 		System.out.println("It is " + dogAge + " years old");
 	}
 
