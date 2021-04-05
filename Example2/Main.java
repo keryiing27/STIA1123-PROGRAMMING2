@@ -4,17 +4,17 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Dog poodle = new Dog();
-		poodle.dogName = "Mimi";
-		poodle.breed = "Poodle";
-		poodle.eyeColor = "brown";
+		Animal dog = new Animal();
+		dog.dogName = "Mimi";
+		dog.breed = "Poodle";
+		dog.eyeColor = "brown";
 		
-		System.out.println("Pet dog name: " + poodle.dogName);
-		System.out.println("Dog breed: " + poodle.breed);
-		System.out.println("It has " + poodle.eyeColor + " eyes" + "\n");
+		System.out.println("Pet dog name: " + dog.dogName);
+		System.out.println("Dog breed: " + dog.breed);
+		System.out.println("It has " + dog.eyeColor + " eyes" + "\n");
 		
 		
-		Dog husky = new Dog();
+		Animal husky = new Animal();
 		husky.dogName = "Puppy";
 		husky.breed = "Husky";
 		husky.dogAge = 2;
@@ -32,21 +32,21 @@ public class Main {
 		
 		System.out.println("--------------------------------------------");
 		
-		Cat persian = new Cat();
-		persian.catName = "Fluffy";
-		persian.breed = "Persian";
-		persian.plays = "toys";		
-		persian.catAge = 2;
-		persian.giveBirth = 4;
+		Animal cat = new Animal();
+		cat.catName = "Fluffy";
+		cat.breed = "Persian";
+		cat.plays = "toys";		
+		cat.catAge = 2;
+		cat.giveBirth = 4;
 		
-		System.out.println("Pet cat name: " + persian.catName);
-		System.out.println("Cat breed: " + persian.breed);
-		persian.printcatAge();
-		persian.printplays();
+		System.out.println("Pet cat name: " + cat.catName);
+		System.out.println("Cat breed: " + cat.breed);
+		cat.printcatAge();
+		cat.printplays();
 		
 		System.out.println();
 
-		persian.printGiveBirth();
+		cat.printGiveBirth();
 	}
 
 }
