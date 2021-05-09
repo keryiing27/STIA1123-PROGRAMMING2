@@ -60,7 +60,7 @@ public class Apple extends Fruit{
 				}
 				else if (name.equals("Granny Smith")) {
 					Discount gsDis = new GrannyDiscount(); // create new object for discount 
-					System.out.println("Total Discount:             : " + gsDis.percentOfDiscount()); //discount of fuji apple
+					System.out.println("Total Discount:             : " + gsDis.percentOfDiscount()); //discount of granny smith apple
 					disc = gsDis.percentOfDiscount(); //now the percentage will change as percentOfDiscount() method	
 				}
 				
