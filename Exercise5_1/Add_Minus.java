@@ -110,5 +110,10 @@ public class Add_Minus {
 		Resulttextfield.setBounds(150, 169, 119, 34);
 		frame.getContentPane().add(Resulttextfield);
 		Resulttextfield.setColumns(10);
+		
+		JLabel ResultLabel = new JLabel("The Answer is :");
+		ResultLabel.setFont(new Font("Tahoma", Font.PLAIN, 19));
+		ResultLabel.setBounds(45, 185, 145, 26);
+		frame.getContentPane().add(ResultLabel);
 	}
 }
