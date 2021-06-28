@@ -98,11 +98,11 @@ public class AdminPack extends JFrame {
 			}
 		});
 		
-		JButton btnNewButton_1_1 = new JButton("Exit >");
+		JButton btnNewButton_1_1 = new JButton("Home Page >");
 		btnNewButton_1_1.setForeground(Color.BLACK);
 		btnNewButton_1_1.setFont(new Font("Tahoma", Font.BOLD, 10));
 		btnNewButton_1_1.setBackground(new Color(153, 204, 255));
-		btnNewButton_1_1.setBounds(627, 10, 70, 31);
+		btnNewButton_1_1.setBounds(587, 10, 110, 31);
 		panel.add(btnNewButton_1_1);
 		btnNewButton_1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -321,7 +321,7 @@ public class AdminPack extends JFrame {
 		btnNewButton_1.setForeground(Color.BLACK);
 		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 10));
 		btnNewButton_1.setBackground(new Color(153, 204, 255));
-		btnNewButton_1.setBounds(547, 10, 70, 31);
+		btnNewButton_1.setBounds(507, 10, 70, 31);
 		panel.add(btnNewButton_1);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
