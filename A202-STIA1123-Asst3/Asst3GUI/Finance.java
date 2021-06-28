@@ -156,7 +156,7 @@ public class Finance extends JFrame {
 							}
 					}
 				}catch (Exception e1) {
-					
+					e1.printStackTrace();
 				}
 			}
 		});
