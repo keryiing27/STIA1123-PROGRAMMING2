@@ -151,7 +151,23 @@ public class AdminLogin extends JFrame {
 			}
 		});
 		
-
+			
+		JButton btnNewButton_1 = new JButton("< Back");
+		btnNewButton_1.setForeground(Color.BLACK);
+		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 10));
+		btnNewButton_1.setBackground(Color.WHITE);
+		btnNewButton_1.setBounds(615, 10, 70, 31);
+		panel.add(btnNewButton_1);
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				dispose();
+				WedHomePage hP = new WedHomePage();
+				hP.setModalExclusionType(null);
+	            		hP.setVisible(true);	
+				
+			}
+		});
 		
 		JButton btnExit = new JButton("Exit");
 		btnExit.setFont(new Font("Comic Sans MS", Font.PLAIN, 20));
@@ -162,9 +178,7 @@ public class AdminLogin extends JFrame {
 				int exit = JOptionPane.showConfirmDialog(null, "Do you want to exit ?", "Exit", JOptionPane.YES_NO_OPTION);
 				if (exit == JOptionPane.YES_OPTION) {
 				dispose();
-				HomePage hP = new HomePage();
-				hP.setModalExclusionType(null);
-	            hP.setVisible(true);	
+					
 				}
 			}
 		});
