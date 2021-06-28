@@ -472,13 +472,12 @@ public class CustomerBilling extends JFrame {
 		panel.add(btnNewButton_1_1);
 		btnNewButton_1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				int exit = JOptionPane.showConfirmDialog(null, "Do you want to exit ?", "Exit",JOptionPane.YES_NO_OPTION);
-				if (exit == JOptionPane.YES_OPTION) {
+
 				dispose();
 				HomePage hP = new HomePage();
 				hP.setModalExclusionType(null);
-	            hP.setVisible(true);
-				}
+	            		hP.setVisible(true);
+				
 			}
 		});
 		
