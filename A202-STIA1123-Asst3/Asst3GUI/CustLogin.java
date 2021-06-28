@@ -189,13 +189,11 @@ public class CustLogin extends JFrame {
 		panel.add(btnNewButton_1);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				int exit = JOptionPane.showConfirmDialog(null, "Do you want to exit ?", "Exit", JOptionPane.YES_NO_OPTION);
-				if (exit == JOptionPane.YES_OPTION) {
 				dispose();
 				WedHomePage hP = new WedHomePage();
 				hP.setModalExclusionType(null);
 	           		hP.setVisible(true);	
-				}
+				
 			}
 		});
 		
